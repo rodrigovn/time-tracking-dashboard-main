@@ -8,7 +8,7 @@
 body {
   background-color: #0f1424;
   color: white;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -187,7 +187,7 @@ body {
 
 .card-work {
   background-color: #ff8c66;
-  background-image: url(/images/icon-work.svg);
+  background-image: url(../images/icon-work.svg);
   background-repeat: no-repeat;
   background-position: right top -10px;
   border-radius: 1rem;
@@ -203,7 +203,7 @@ body {
 
 .card-play {
   background-color: #56c2e6;
-  background-image: url(/images/icon-play.svg);
+  background-image: url(../images/icon-play.svg);
   background-repeat: no-repeat;
   background-position: right top -10px;
   border-radius: 1rem;
@@ -219,7 +219,7 @@ body {
 
 .card-study {
   background-color: #ff5c7c;
-  background-image: url(/images/icon-study.svg);
+  background-image: url(../images/icon-study.svg);
   background-repeat: no-repeat;
   background-position: right top -10px;
   border-radius: 1rem;
@@ -235,7 +235,7 @@ body {
 
 .card-exercise {
   background-color: #4acf81;
-  background-image: url(/images/icon-exercise.svg);
+  background-image: url(../images/icon-exercise.svg);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: right top -10px;
@@ -252,7 +252,7 @@ body {
 
 .card-social {
   background-color: #7536d3;
-  background-image: url(/images/icon-social.svg);
+  background-image: url(../images/icon-social.svg);
   background-repeat: no-repeat;
   background-position: right top -10px;
   border-radius: 1rem;
@@ -268,7 +268,7 @@ body {
 
 .card-self-care {
   background-color: #f1c65b;
-  background-image: url(/images/icon-self-care.svg);
+  background-image: url(../images/icon-self-care.svg);
   background-repeat: no-repeat;
   background-position: right top -10px;
   border-radius: 1rem;
