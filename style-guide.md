@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 - Blue: hsl(246, 80%, 60%)
 
-- Light red (work): hsl(15, 100%, 70%)
+- Light orange (work): hsl(15, 100%, 70%)
 - Soft blue (play): hsl(195, 74%, 62%)
 - Light red (study): hsl(348, 100%, 68%)
 - Lime green (exercise): hsl(145, 58%, 55%)

@@ -8,73 +8,144 @@
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  
 </head>
 <body>
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+  <main class="container">
+    <div class="profile">
+      <div class="profile-card">
+        <img src="images/image-jeremy.png" alt="image jeremy">
+        <div class="profile-card-text">
+          <h2>
+            Report for
+          </h2>
+          <h1>
+            <div class="first-name">Jeremy</div>
+            <div class="last-name">Robson</div>
+          </h1>
+        </div>
+      </div>
+      <div class="profile-links">
+        <a href="#" id="daily-btn" >Daily</a>
+        <a href="#" id="weekly-btn">Weekly</a>
+        <a href="#" id="monthly-btn">Monthly</a>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="card-container-1-half">
+        <div class="card-work">
+          <h1> </h1>
+          <div class="card-content">
+            <div class="header">
+              <h1>
+                Work
+              </h1>
+              <a href="#">...</a>
+            </div>
+            <div class="hours">
+              <div class="current" id="current-hours-0"></div>
+              <div class="previous" id="previous-hours-0"></div>
+            </div>
+          </div>          
+        </div>
+       
+        <div class="card-play">
+          <h1> </h1>
+          <div class="card-content">
+            <div class="header">
+              <h1>
+                Play
+              </h1>
+              <a href="#">...</a>
+            </div>
+            <div class="hours">
+              <div class="current" id="current-hours-1"></div>
+              <div class="previous" id="previous-hours-1"></div>
+            </div>
+          </div>
+                    
+        </div>
+        <div class="card-study">
+          <h1> </h1>
+          <div class="card-content">
+            <div class="header">
+              <h1>
+                Study
+              </h1>
+              <a href="#">...</a>
+            </div>
+            <div class="hours">
+              <div class="current" id="current-hours-2"></div>
+              <div class="previous" id="previous-hours-2"></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="card-container-2-half">
+        <div class="card-exercise">
+          <h1> </h1>
+          <div class="card-content">
+            <div class="header">
+              <h1>
+                Exercise
+              </h1>
+              <a href="#">...</a>
+            </div>
+            <div class="hours">
+              <div class="current" id="current-hours-3"></div>
+              <div class="previous" id="previous-hours-3"></div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="card-social">
+          <h1> </h1>
+          <div class="card-content">
+            <div class="header">
+              <h1>
+                Social
+              </h1>
+              <a href="#">...</a>
+            </div>
+            <div class="hours">
+              <div class="current" id="current-hours-4"></div>
+              <div class="previous" id="previous-hours-4"></div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="card-self-care">
+          <h1> </h1>
+          <div class="card-content">
+            <div class="header">
+              <h1>
+                Self Care
+              </h1>
+              <a href="#">...</a>
+            </div>
+            <div class="hours">
+              <div class="current" id="current-hours-5"></div>
+              <div class="previous" id="previous-hours-5"></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </main>
 
   
-  <div class="attribution">
+  <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
